@@ -42,9 +42,10 @@ Here's the list of projects I plan to complete over the next 30 days:
 - Final Project: To be determined.
 
 ## 🧰 Tools & Technologies
-Languages: Python, Go, Ruby
-Development Environment: VS Code
-Version Control: Git and GitHub
+- Languages: Python, Go, Ruby
+- Development Environment: VS Code
+- Version Control: Git and GitHub
+
 ## 🙌 Contributions
 Although this repository is primarily for my personal training, I'm always open to feedback and suggestions! If you spot anything that could be improved or have insights on any of the languages I'm diving into, please feel free to open an "Issue" or "Pull Request".
 
