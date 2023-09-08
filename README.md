@@ -49,5 +49,3 @@ Here's the list of projects I plan to complete over the next 30 days:
 ## 🙌 Contributions
 Although this repository is primarily for my personal training, I'm always open to feedback and suggestions! If you spot anything that could be improved or have insights on any of the languages I'm diving into, please feel free to open an "Issue" or "Pull Request".
 
-## 🌟 Acknowledgments
-A shoutout to the online community for all the available resources, tutorials, and tools. A special thanks to @ChatGPT for assisting with the code and answering my queries throughout this challenge.
