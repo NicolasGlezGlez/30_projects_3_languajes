@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#notaForm {
+    margin-bottom: 20px;
+}
+
+#logoutButton {
+    padding: 10px 20px;
+    background-color: #f44336; /* Rojo */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#logoutButton:hover {
+    background-color: #d32f2f; /* Rojo oscuro al pasar el ratón por encima */
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+#loginForm .button-container {
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+}
+
+#tituloNota, #contenidoNota {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#contenidoNota {
+    height: 100px;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* Esta altura es solo para centrar el formulario, ajústalo según tus necesidades */
+}
+
+#username, #password {
+    width: 100%;
+    max-width: 300px; /* Ancho máximo del campo de entrada */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}

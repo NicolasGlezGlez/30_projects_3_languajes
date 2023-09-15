@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Notas</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <header>
+        <button id="logoutButton" onclick="logout()" style="display: none;">Cerrar Sesión</button>
+
+        <h1>Aplicación de Notas</h1>
+        <section id="userToShow">
+            <!-- El nombre de usuario se mostrará aquí -->
+
+        </section>
+        <section id="searchForm" style="display: none;">
+            <input type="text" id="searchKeyword" placeholder="Buscar nota...">
+            <button onclick="searchNotes()">Buscar</button>
+        </section>
+        
+    </header>
+    
+    <!-- Login Form -->
+    <section id="loginForm">
+        <input type="text" id="username" placeholder="Usuario">
+        <input type="password" id="password" placeholder="Contraseña">
+        
+        <div class="button-container">
+            <button onclick="login()">Iniciar Sesión</button>
+            <button onclick="register()">Registrarte</button>
+        </div>
+    </section>
+
+    <section id="editNotaForm" style="display: none;">
+        <input type="hidden" id="editNoteId">
+        <input type="text" id="editTituloNota" placeholder="Editar título de la nota">
+        <textarea id="editContenidoNota" placeholder="Editar contenido de la nota"></textarea>
+        <button onclick="editarNota()">Guardar Cambios</button>
+    </section>
+    
+    
+    
+
+    <section id="notaForm" style="display: none;">
+        <input type="text" id="tituloNota" placeholder="Título de la nota">
+        <textarea id="contenidoNota" placeholder="Contenido de la nota"></textarea>
+        <button onclick="agregarNota()">Añadir Nota</button>
+    </section>
+
+    <section id="listaNotas">
+        <!-- Las notas se mostrarán aquí -->
+    </section>
+
+    <script src="src/scripts.js"></script>
+</body>
+</html>
